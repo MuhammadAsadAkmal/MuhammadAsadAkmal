@@ -5,7 +5,7 @@ I am a third year BS Software Engineer. candidate at Comsats university, Islamab
 
 * 🌍  I'm based in Islamabad
 * 🖥️  See my portfolio at [masadakmal.me](http://masadakmal.me)
-* ✉️  You can contact me at [asadakmal1999@gmail.com](mailto:asadakmal1999@gmail.com)
+* ✉️  You can contact me at [m.asadakmal1999@gmail.com](mailto:m.asadakmal1999@gmail.com)
 * 🚀  I'm currently working on [buy with meta mask Ecommerce store](http://https://github.com/MuhammadAsadAkmal/buywith-meta-mask-Ecomstore)
 * 🧠  I'm learning django + web3 integeration
 * 🤝  I'm open to collaborating on BlockChain
