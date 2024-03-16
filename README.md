@@ -1,13 +1,14 @@
 Hi 👋 My name is Muhammad asad akmal
 ====================================
 
-I am a third year BS Software Engineer. candidate at Comsats university, Islamabad. Apart from that I am seasonal developer who loves doing work (on Decentralized application , Smart contracts , Data Science, Productive web and android based projects) and contributing to open source
+Full-stack Software Engineer, with 1 year experience in blockchain, web development using Python, JavaScript, and Solidity, and advanced knowledge of AI and machine learning. Proven track record in building scalable and secure applications, specifically in NFT marketplaces, ENS Marketplace, smartcontract development and AI-based projects. Proficient in Django, NextJS, ReactJS, ExpressJS
 
 * 🌍  I'm based in Islamabad
-* 🖥️  See my portfolio at [masadakmal.me](http://masadakmal.me)
+* 🖥️  See my portfolio at [asadakmal.tech](https://www.asadakmal.tech)
 * ✉️  You can contact me at [m.asadakmal1999@gmail.com](mailto:m.asadakmal1999@gmail.com)
-* 🚀  I'm currently working on [buy with meta mask Ecommerce store](http://https://github.com/MuhammadAsadAkmal/buywith-meta-mask-Ecomstore)
-* 🧠  I'm learning django + web3 integeration
+* 🚀  I'm currently working on [BAAZAAR, CANDELBET, BRITSOL](http://https://github.com/MuhammadAsadAkmal/)
+* 🧠  I'm Full Stack developer of  django + web3 integeration
+* 🧠  Currentrly working on NEXTJS, REACTJS , MONGODB, EXPRESSJS (MERN Stack)
 * 🤝  I'm open to collaborating on BlockChain
 
 <a href="https://www.twitter.com/M_Asad_Akmal" target="_blank" rel="noreferrer"><img
