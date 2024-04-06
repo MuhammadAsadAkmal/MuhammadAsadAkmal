@@ -7,7 +7,7 @@ Full-stack Software Engineer, with 1 year experience in blockchain, web developm
 * 🖥️  See my portfolio at [asadakmal.tech](https://www.asadakmal.tech)
 * ✉️  You can contact me at [m.asadakmal1999@gmail.com](mailto:m.asadakmal1999@gmail.com)
 * 🚀  I'm currently working on [BAAZAAR, CANDELBET, BRITSOL, DELIVERY HERO](http://https://github.com/MuhammadAsadAkmal/)
-* 🧠  I'm Full Stack developer of  django + web3 integeration
+* 🧠  I'm Full Stack developer of  MERN, DJANGO and WEB3.0
 * 🧠  Currentrly working on NEXTJS, REACTJS , MONGODB, EXPRESSJS (MERN Stack)
 * 🤝  I'm open to collaborating on BlockChain
 
