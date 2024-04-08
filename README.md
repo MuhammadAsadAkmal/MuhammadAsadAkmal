@@ -1,5 +1,5 @@
 Hi 👋 My name is Muhammad asad akmal
-====================================
+=====================================
 
 Full-stack Software Engineer, with 1 year experience in blockchain, web development using Python, JavaScript, and Solidity, and advanced knowledge of AI and machine learning. Proven track record in building scalable and secure applications, specifically in NFT marketplaces, ENS Marketplace, smartcontract development and AI-based projects. Proficient in Django, NextJS, ReactJS, ExpressJS
 
