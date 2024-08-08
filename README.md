@@ -1,14 +1,14 @@
 Hi 👋 My name is Muhammad asad akmal
 =====================================
 
-Full-stack Software Engineer, with 1 year experience in blockchain, web development using Python, JavaScript, and Solidity, and advanced knowledge of AI and machine learning. Proven track record in building scalable and secure applications, specifically in NFT marketplaces, ENS Marketplace, smartcontract development and AI-based projects. Proficient in Django, NextJS, ReactJS, ExpressJS
+Full-stack Software Engineer, with 1 year experience in blockchain, web development using Python, JavaScript, and Solidity, and advanced knowledge of AI and machine learning. Proven track record in building scalable and secure applications, specifically in NFT marketplaces, ENS Marketplace, smartcontract development and AI-based projects. Proficient in Django, NextJS, ReactJS, ExpressJS, NESTJS
 
 * 🌍  I'm based in Islamabad
 * 🖥️  See my portfolio at [asadakmal.tech](https://www.asadakmal.tech)
 * ✉️  You can contact me at [m.asadakmal1999@gmail.com](mailto:m.asadakmal1999@gmail.com)
-* 🚀  I'm currently working on [BAAZAAR, CANDELBET, BRITSOL, DELIVERY HERO](http://https://github.com/MuhammadAsadAkmal/)
-* 🧠  I'm Full Stack developer of  MERN, DJANGO and WEB3.0
-* 🧠  Currentrly working on NEXTJS, REACTJS , MONGODB, EXPRESSJS (MERN Stack)
+* 🚀  I'm currently working on [DEEPLAWN](https://deeplawn.com/)
+* 🧠  I'm Full Stack developer of  MERN, DJANGO and WEB3.0, NESTJS
+* 🧠  Currentrly working on NEXTJS, REACTJS , MONGODB, EXPRESSJS (MERN Stack), NESTJS
 * 🤝  I'm open to collaborating on BlockChain
 
 <a href="https://www.twitter.com/M_Asad_Akmal" target="_blank" rel="noreferrer"><img
