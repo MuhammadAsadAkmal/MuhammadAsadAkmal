@@ -1,0 +1,50 @@
+# ------------------------------------------------------------------
+#  Contribution Snake animation for your GitHub profile README.
+#
+#  WHERE THIS GOES:
+#  Copy this file into your PROFILE repo (MuhammadAsadAkmal/MuhammadAsadAkmal)
+#  at this exact path:   .github/workflows/snake.yml
+#
+#  THEN:
+#   1. Make sure the repo is PUBLIC.
+#   2. Settings → Actions → General → allow Actions, and give workflows
+#      "Read and write permissions".
+#   3. Actions tab → "Generate Snake" → "Run workflow" (run it once now).
+#      This creates the `output` branch holding the generated SVGs that
+#      PROFILE_README.md points at. It then re-runs automatically every
+#      12 hours and on every push to main.
+# ------------------------------------------------------------------
+name: Generate Snake
+
+on:
+  schedule:
+    # every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
