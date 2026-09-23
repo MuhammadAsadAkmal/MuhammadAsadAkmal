@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="760" viewBox="0 0 600 760" role="img" aria-label="Muhammad Asad Akmal — Team Lead and Full-Stack Engineer">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7AA2F7"/>
+      <stop offset="0.5" stop-color="#BB9AF7"/>
+      <stop offset="1" stop-color="#7DCFFF"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C0CAF5"/>
+      <stop offset="1" stop-color="#7AA2F7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.9" cy="0.05" r="0.8">
+      <stop offset="0" stop-color="#7AA2F7" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7AA2F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#414868" opacity="0.55"/>
+    </pattern>
+    <clipPath id="c1"><rect x="56" y="384" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.04;0.14;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="56" y="414" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.16;0.17;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="56" y="452" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.22;0.32;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="56" y="482" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.34;0.35;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="56" y="520" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.40;0.52;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="56" y="550" height="26" width="0"><animate attributeName="width" values="0;0;500;500" keyTimes="0;0.56;0.57;1" dur="12s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <!-- card -->
+  <rect x="1.5" y="1.5" width="597" height="757" rx="22" fill="#1A1B27" stroke="url(#border)" stroke-width="2"/>
+  <rect x="3" y="3" width="594" height="754" rx="21" fill="url(#dots)"/>
+  <rect x="3" y="3" width="594" height="754" rx="21" fill="url(#glow)"/>
+
+  <!-- identity -->
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <text x="36" y="62" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="17" fill="#7AA2F7" letter-spacing="1.5">// TEAM LEAD · FULL-STACK ENGINEER</text>
+    <text x="34" y="124" font-size="50" font-weight="700" fill="url(#name)">Muhammad Asad</text>
+    <text x="34" y="182" font-size="50" font-weight="700" fill="url(#name)">Akmal<tspan fill="#7AA2F7">.</tspan></text>
+    <text x="36" y="226" font-size="21" fill="#A9B1D6">Building and scaling production SaaS,</text>
+    <text x="36" y="256" font-size="21" fill="#A9B1D6">AI-powered applications and complex</text>
+    <text x="36" y="286" font-size="21" fill="#A9B1D6">web systems.</text>
+
+    <g font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="15">
+      <rect x="36" y="306" width="72" height="30" rx="15" fill="#24283B" stroke="#7AA2F7" stroke-opacity="0.5"/>
+      <text x="72" y="326" text-anchor="middle" fill="#7AA2F7">SaaS</text>
+      <rect x="116" y="306" width="52" height="30" rx="15" fill="#24283B" stroke="#BB9AF7" stroke-opacity="0.5"/>
+      <text x="142" y="326" text-anchor="middle" fill="#BB9AF7">AI</text>
+      <rect x="176" y="306" width="200" height="30" rx="15" fill="#24283B" stroke="#7DCFFF" stroke-opacity="0.5"/>
+      <text x="276" y="326" text-anchor="middle" fill="#7DCFFF">System Architecture</text>
+      <rect x="384" y="306" width="120" height="30" rx="15" fill="#24283B" stroke="#9ECE6A" stroke-opacity="0.5"/>
+      <text x="444" y="326" text-anchor="middle" fill="#9ECE6A">Leadership</text>
+    </g>
+  </g>
+
+  <!-- terminal -->
+  <g>
+    <rect x="36" y="358" width="528" height="236" rx="12" fill="#16161E" stroke="#414868"/>
+    <path d="M36 370a12 12 0 0 1 12-12h504a12 12 0 0 1 12 12v12H36z" fill="#1F2335"/>
+    <circle cx="56" cy="370" r="5.5" fill="#F7768E"/>
+    <circle cx="74" cy="370" r="5.5" fill="#E0AF68"/>
+    <circle cx="92" cy="370" r="5.5" fill="#9ECE6A"/>
+    <text x="300" y="375" text-anchor="middle" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#565F89">asad@prod ~ zsh</text>
+
+    <g font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="18">
+      <g clip-path="url(#c1)"><text x="56" y="404"><tspan fill="#9ECE6A">❯</tspan><tspan fill="#C0CAF5"> whoami</tspan></text></g>
+      <g clip-path="url(#c2)"><text x="56" y="434" fill="#A9B1D6">team lead · full-stack · architect</text></g>
+      <g clip-path="url(#c3)"><text x="56" y="472"><tspan fill="#9ECE6A">❯</tspan><tspan fill="#C0CAF5"> cat stack.txt</tspan></text></g>
+      <g clip-path="url(#c4)"><text x="56" y="502" fill="#7DCFFF">next.js · nestjs · typescript · ai</text></g>
+      <g clip-path="url(#c5)"><text x="56" y="540"><tspan fill="#9ECE6A">❯</tspan><tspan fill="#C0CAF5"> deploy --env=production</tspan></text></g>
+      <g clip-path="url(#c6)"><text x="56" y="570" fill="#9ECE6A">✓ shipped · secure · scalable</text></g>
+    </g>
+  </g>
+
+  <!-- stats 2x2 -->
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="36" y="614" width="256" height="58" rx="10" fill="#1F2335" stroke="#7AA2F7" stroke-opacity="0.35"/>
+    <text x="54" y="652" font-size="28" font-weight="700" fill="#7AA2F7">5+</text>
+    <text x="96" y="649" font-size="16" fill="#A9B1D6">years in production</text>
+    <rect x="308" y="614" width="256" height="58" rx="10" fill="#1F2335" stroke="#BB9AF7" stroke-opacity="0.35"/>
+    <text x="326" y="652" font-size="28" font-weight="700" fill="#BB9AF7">10k+</text>
+    <text x="400" y="649" font-size="16" fill="#A9B1D6">active users served</text>
+    <rect x="36" y="684" width="256" height="58" rx="10" fill="#1F2335" stroke="#7DCFFF" stroke-opacity="0.35"/>
+    <text x="54" y="722" font-size="28" font-weight="700" fill="#7DCFFF">6</text>
+    <text x="78" y="719" font-size="16" fill="#A9B1D6">engineers led</text>
+    <rect x="308" y="684" width="256" height="58" rx="10" fill="#1F2335" stroke="#9ECE6A" stroke-opacity="0.35"/>
+    <text x="326" y="722" font-size="28" font-weight="700" fill="#9ECE6A">5</text>
+    <text x="350" y="719" font-size="16" fill="#A9B1D6">production platforms</text>
+  </g>
+</svg>
