@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------
+#  Keeps the "Recent activity" section of README.md up to date.
+#  Rewrites the lines between the START_SECTION:activity markers with
+#  your latest public GitHub events. Uses the built-in GITHUB_TOKEN;
+#  no setup needed beyond Actions having read & write permissions.
+# ------------------------------------------------------------------
+name: Update Recent Activity
+
+on:
+  schedule:
+    # every 6 hours
+    - cron: "30 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 6
+          COMMIT_NAME: github-actions[bot]
+          COMMIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          COMMIT_MSG: "chore: refresh recent activity"

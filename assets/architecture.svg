@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="612" viewBox="0 0 1000 612" role="img" aria-label="Architecture of the stack: frontend, backend and APIs, data, AI, security, integrations, cloud and DevOps, with technical leadership across every layer">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#24283B" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7AA2F7"/>
+      <stop offset="1" stop-color="#BB9AF7"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="997" height="609" rx="18" fill="#1A1B27" stroke="url(#edge)" stroke-opacity="0.6" stroke-width="2"/>
+  <rect x="3" y="3" width="994" height="606" rx="17" fill="url(#grid)" opacity="0.7"/>
+
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <!-- heading -->
+    <text x="40" y="38" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#565F89" letter-spacing="1.5">// ARCHITECTURE.md</text>
+    <text x="40" y="66" font-size="22" font-weight="700" fill="#C0CAF5">How I build — the system behind the work</text>
+
+    <!-- connectors -->
+    <g stroke="#414868" stroke-width="2" fill="none">
+      <path d="M410 160V190"/>
+      <path d="M410 260V275M128 275H695M128 275V290M316 275V290M504 275V290M695 275V290"/>
+      <path d="M128 410V430H695V410M410 430V450"/>
+    </g>
+    <g stroke="#FF9E64" stroke-width="1.5" stroke-dasharray="4 5" stroke-opacity="0.7">
+      <path d="M780 125H800"/><path d="M780 225H800"/><path d="M783 350H800"/><path d="M780 485H800"/>
+    </g>
+
+    <!-- data flowing through the system -->
+    <circle cx="410" r="3.5" fill="#7AA2F7"><animate attributeName="cy" values="160;190" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#BB9AF7"><animateMotion path="M410 260V275H128V290" dur="2s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#BB9AF7"><animateMotion path="M410 260V275H504V290" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#BB9AF7"><animateMotion path="M410 260V275H695V290" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle r="3.5" fill="#9ECE6A"><animateMotion path="M316 410V430H410V450" dur="1.8s" repeatCount="indefinite"/></circle>
+
+    <!-- 01 frontend -->
+    <rect x="40" y="90" width="740" height="70" rx="12" fill="#1F2335" stroke="#7AA2F7" stroke-opacity="0.55"/>
+    <rect x="40" y="90" width="4" height="70" rx="2" fill="#7AA2F7"/>
+    <text x="62" y="116" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#7AA2F7" letter-spacing="1.2">01 · FRONTEND</text>
+    <text x="62" y="143" font-size="15.5" fill="#C0CAF5">Next.js · React · TanStack Query · Zustand · Tailwind CSS</text>
+
+    <!-- 02 backend -->
+    <rect x="40" y="190" width="740" height="70" rx="12" fill="#1F2335" stroke="#BB9AF7" stroke-opacity="0.55"/>
+    <rect x="40" y="190" width="4" height="70" rx="2" fill="#BB9AF7"/>
+    <text x="62" y="216" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#BB9AF7" letter-spacing="1.2">02 · BACKEND &amp; APIs</text>
+    <text x="62" y="243" font-size="15.5" fill="#C0CAF5">NestJS · Node.js · Express · GraphQL · Apollo · REST · WebSockets</text>
+
+    <!-- 03-06 services row -->
+    <g font-size="14" fill="#C0CAF5">
+      <rect x="40" y="290" width="176" height="120" rx="12" fill="#1F2335" stroke="#7DCFFF" stroke-opacity="0.55"/>
+      <text x="58" y="318" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#7DCFFF" letter-spacing="1.2">03 · DATA</text>
+      <text x="58" y="346">PostgreSQL</text>
+      <text x="58" y="370">Redis</text>
+      <text x="58" y="394">Multi-Tenancy</text>
+
+      <rect x="228" y="290" width="176" height="120" rx="12" fill="#1F2335" stroke="#BB9AF7" stroke-opacity="0.8"/>
+      <text x="246" y="318" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#BB9AF7" letter-spacing="1.2">04 · AI</text>
+      <circle cx="388" cy="314" r="4" fill="#BB9AF7"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <text x="246" y="346">RAG · Embeddings</text>
+      <text x="246" y="370">LLM Apps · AI Agents</text>
+      <text x="246" y="394">LangGraph · Workflows</text>
+
+      <rect x="416" y="290" width="176" height="120" rx="12" fill="#1F2335" stroke="#F7768E" stroke-opacity="0.55"/>
+      <text x="434" y="318" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#F7768E" letter-spacing="1.2">05 · SECURITY</text>
+      <text x="434" y="346">JWT · OAuth</text>
+      <text x="434" y="370">RBAC · 2FA</text>
+      <text x="434" y="394">Secure API Design</text>
+
+      <rect x="604" y="290" width="176" height="120" rx="12" fill="#1F2335" stroke="#E0AF68" stroke-opacity="0.55"/>
+      <text x="622" y="318" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#E0AF68" letter-spacing="1.2">06 · INTEGRATIONS</text>
+      <text x="622" y="346">Stripe · PayPal</text>
+      <text x="622" y="370">CRM · Analytics</text>
+      <text x="622" y="394">Identity Verification</text>
+    </g>
+
+    <!-- 07 cloud -->
+    <rect x="40" y="450" width="740" height="70" rx="12" fill="#1F2335" stroke="#9ECE6A" stroke-opacity="0.55"/>
+    <rect x="40" y="450" width="4" height="70" rx="2" fill="#9ECE6A"/>
+    <text x="62" y="476" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#9ECE6A" letter-spacing="1.2">07 · CLOUD, DEVOPS &amp; MONOREPOS</text>
+    <text x="62" y="503" font-size="15.5" fill="#C0CAF5">AWS · Docker · Nginx · GitHub Actions · CI/CD · Turborepo · Nx</text>
+
+    <!-- leadership rail -->
+    <rect x="800" y="90" width="160" height="430" rx="12" fill="#1F2335" stroke="#FF9E64" stroke-opacity="0.55"/>
+    <text x="818" y="116" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#FF9E64" letter-spacing="1.2">∞ · LEADERSHIP</text>
+    <g font-size="14" fill="#C0CAF5">
+      <text x="818" y="146">Architecture</text>
+      <text x="818" y="172">Code Review</text>
+      <text x="818" y="198">Mentoring</text>
+      <text x="818" y="224">Eng. Standards</text>
+      <text x="818" y="250">Delivery</text>
+    </g>
+    <path d="M818 276H942" stroke="#414868"/>
+    <text x="818" y="304" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#565F89" letter-spacing="1.2">TOOLING</text>
+    <g font-size="14" fill="#A9B1D6">
+      <text x="818" y="334">Git · pnpm</text>
+      <text x="818" y="360">Vitest · Jest</text>
+      <text x="818" y="386">Postman</text>
+      <text x="818" y="412">ESLint</text>
+    </g>
+    <text x="818" y="500" font-size="12" fill="#565F89" font-style="italic">across every layer</text>
+
+    <!-- languages strip -->
+    <rect x="40" y="544" width="920" height="44" rx="10" fill="#16161E" stroke="#414868"/>
+    <text x="62" y="571" font-family="SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11.5" fill="#565F89" letter-spacing="1.2">LANGUAGES</text>
+    <text x="160" y="571" font-size="15" fill="#C0CAF5"><tspan fill="#7AA2F7">TypeScript</tspan>  ·  JavaScript  ·  Python  ·  Solidity</text>
+  </g>
+</svg>
